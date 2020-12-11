@@ -1,6 +1,9 @@
-
-.contenedor{
+body{
     background-color: #999999;
+}
+.contenedor{
+    padding: 40px;
+    display: block;
 }
 .login{
     display: block;
@@ -11,31 +14,50 @@
     font-size: 1.2rem;
     color: #999999;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 20px;
+    padding-bottom: 30px;
+    
 }
-.login p{
+.login legend{
     background-color: rgb(235, 67, 67);
     color: white;
     font-size: 1.5rem;
     padding: 10px 0 10px 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px 20px 0 0;
 }
 .campos{
-    padding: 10px 0 20px 30px;
     display: block;
-    justify-content: center;
+    padding: 10px 0 20px 30px;
 }
+.campos input, label{
+    display: block;
+    margin: 10px;
+}
+
 .campos input{
-    background-color: #999999;
+    background-color: #E8E8E8;
     color: #666666;
     border: none;
+    padding: 7px;
+    font-size: 1rem;
+    width: 80%;
 }
 .boton{
-    text-align: center;
-    
+    text-align: center;   
 }
 .boton input{
     background-color: rgb(36, 184, 43);
-    padding: 5px 20px;
+    padding: 5px 25px;
     border: none;
     border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    
+}
+.boton input:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+     transform: scale(1.2);
 }
