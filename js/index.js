@@ -8,13 +8,13 @@ function validar(){
         password : 1234
     }
 
-    if (email === objeto.email || password === objeto.password){
-        alert("buen trabajo");
-        return false;
+    if (email == objeto.email && password == objeto.password){
+        window.open("../contenido.html");
+        return true;
     }
     else {
-        alert("datos erroneos");
-        // document.getElementById("validar").innerHTML = "E-mail o password incorrectos";
+        alert("Datos erroneos");
+        
     }
     
 }
